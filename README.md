@@ -55,6 +55,10 @@ Enter wordlist file path: wordlist.txt
 [+] Password found: secret
 ```
 
+## Disclaimer
+This tool is for educational and authorized testing purposes only.
+Do not use it on files you do not own or have permission to test.
+
 ## Contributing
 Feel free to open issues or submit pull requests for improvements or bug fixes.
 
