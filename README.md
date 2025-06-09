@@ -1,10 +1,6 @@
 # PDF Password Bruteforcer
 A simple Python script to brute-force password-protected PDF files using a wordlist.  
 
-![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Requirements](https://img.shields.io/badge/requirements.txt-up%20to%20date-brightgreen)
-
 ## Features
 - Brute-force PDF passwords using a custom wordlist
 - Supports CLI arguments or interactive input
@@ -57,13 +53,3 @@ Enter wordlist file path: wordlist.txt
 [-] Incorrect password: password
 [+] Password found: letmein123
 ```
-
-## Disclaimer
-This tool is for educational and authorized testing purposes only.
-Do not use it on files you do not own or have permission to test.
-
-## Contributing
-Feel free to open issues or submit pull requests for improvements or bug fixes.
-
-## License
-This project is open-source and free to use.
