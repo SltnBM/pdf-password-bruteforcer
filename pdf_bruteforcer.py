@@ -1,3 +1,4 @@
+import sys
 import pikepdf
 
 def brute_force_pdf(pdf_path, wordlist_path):
@@ -17,6 +18,11 @@ def brute_force_pdf(pdf_path, wordlist_path):
         print("PDF file or wordlist file not found.")
 
 if __name__ == "__main__":
-    pdf_path = input("Enter PDF file path: ")
-    wordlist_path = input("Enter wordlist file path: ")
+    if len(sys.argv) == 3:
+        pdf_path = sys.argv[1]
+        wordlist_path = sys.argv[2]
+    else:
+        pdf_path = input("Enter PDF file path: ")
+        wordlist_path = input("Enter wordlist file path: ")
+
     brute_force_pdf(pdf_path, wordlist_path)
