@@ -6,13 +6,13 @@ A simple Python script to brute-force password-protected PDF files using a wordl
 ![Requirements](https://img.shields.io/badge/requirements.txt-up%20to%20date-brightgreen)
 
 ## ✨ Features
-- Brute-force PDF passwords using a custom wordlist
-- Supports CLI arguments or interactive input
-- Simple and lightweight
+- 🔑 Brute-force PDF passwords using a custom wordlist
+- 🖥️ Supports CLI arguments or interactive input
+- ⚡ Simple and lightweight
 
 ## 📋 Requirements
-- Python 3.6+
-- [pikepdf](https://pypi.org/project/pikepdf/)
+- 🐍 Python 3.6+
+- 📦 [pikepdf](https://pypi.org/project/pikepdf/)
 
 Install dependencies  by running either:
 ```bash
@@ -27,15 +27,15 @@ pip install pikepdf
 
 ## 🚀 How to Use
 1. Make sure you have Python installed (Python 3.6 or higher recommended). Download it from [python.org](https://www.python.org/downloads/).  
-2. Clone the repository.
+2. 📥 Clone the repository.
 ```bash
 git clone https://github.com/SltnBM/pdf-password-bruteforcer.git
 ```
-3. Navigate to the project directory.
+3. 📂 Navigate to the project directory.
 ```bash
 cd pdf-password-bruteforcer
 ```
-4. Run the script.
+4. ▶️ Run the script.
 ```bash
 python pdf_bruteforcer.py
 ```
