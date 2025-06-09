@@ -37,7 +37,7 @@ python pdf_bruteforcer.py <path_to_pdf> <path_to_wordlist>
 ```
 Example:
 ```bash
-python pdf_bruteforcer.py secret.pdf wordlist.txt
+python pdf_bruteforcer.py file_protected.pdf wordlist.txt
 ```
 
 Option 2: Interactive mode
@@ -47,9 +47,10 @@ python pdf_bruteforcer.py
 ```
 Example:
 ```bash
-Enter PDF file path: secret.pdf
+Enter PDF file path: file_protected.pdf
 Enter wordlist file path: wordlist.txt
-[-] Incorrect password: 123456
+[-] Incorrect password: 1234
+[-] Incorrect password: admin
 [-] Incorrect password: password
-[+] Password found: letmein123
+[+] Password found: secret
 ```
