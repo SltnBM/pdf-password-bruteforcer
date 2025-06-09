@@ -10,7 +10,13 @@ A simple Python script to brute-force password-protected PDF files using a wordl
 - Python 3.6+
 - [pikepdf](https://pypi.org/project/pikepdf/)
 
-Install dependencies:
+Install dependencies  by running either:
+```bash
+pip install -r requirements.txt
+```
+
+or
+
 ```bash
 pip install pikepdf
 ```
