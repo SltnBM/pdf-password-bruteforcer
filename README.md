@@ -5,6 +5,15 @@ A simple Python script to brute-force password-protected PDF files using a wordl
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Requirements](https://img.shields.io/badge/requirements.txt-up%20to%20date-brightgreen)
 
+## Table of Contents
+- [Features](#✨-features)
+- [Requirements](#📋-requirements)
+- [How to Use](#🚀-how-to-use)
+- [Usage](#💻-usage)
+- [Disclaimer](#⚠️-disclaimer)
+- [Contributing](#🤝-contributing)
+- [License](#📜-license)
+
 ## ✨ Features
 - 🔑 Brute-force PDF passwords using a custom wordlist
 - 🖥️ Supports CLI arguments or interactive input
@@ -71,6 +80,11 @@ Do not use it on files you do not own or have permission to test.
 
 ## 🤝 Contributing
 Feel free to open issues or submit pull requests for improvements or bug fixes.
+
+## 📬 Contact
+If you have questions or feedback, feel free to reach out:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sultan%20Badra-blue?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/sultan-badra) [![Medium](https://img.shields.io/badge/Medium-@SltnBM-black?logo=medium&logoColor=white&style=flat-square)](https://medium.com/@SltnBM)
 
 ## 📜 License
 This project is open-source and free to use.
