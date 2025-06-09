@@ -54,3 +54,9 @@ Enter wordlist file path: wordlist.txt
 [-] Incorrect password: password
 [+] Password found: secret
 ```
+
+## Contributing
+Feel free to open issues or submit pull requests for improvements or bug fixes.
+
+## License
+This project is open-source and free to use.
