@@ -1,4 +1,4 @@
-import sys
+import argparse
 import pikepdf
 
 def brute_force_pdf(pdf_path, wordlist_path):
@@ -16,24 +16,28 @@ def brute_force_pdf(pdf_path, wordlist_path):
     except FileNotFoundError:
         print(f"[!] PDF file not found: {pdf_path}")
         return
-    except pikepdf._qpdf.PasswordError:
+    except pikepdf.PasswordError:
         pass
     
-        for password in passwords:
-            try:
-                with pikepdf.open(pdf_path, password=password):
-                    print(f"[+] Password found: {password}")
-                    return password
-            except pikepdf.PasswordError:
-                print(f"[-] Incorrect password: {password}")
-        print("[-] Password not found in the wordlist.")
-    except FileNotFoundError:
-        print("PDF file or wordlist file not found.")
+    for password in passwords:
+        try:
+            with pikepdf.open(pdf_path, password=password):
+                print(f"[+] Password found: {password}")
+                return password
+        except pikepdf.PasswordError:
+            print(f"[-] Incorrect password: {password}")
+    print("[-] Password not found in the wordlist.")
 
 if __name__ == "__main__":
-    if len(sys.argv) == 3:
-        pdf_path = sys.argv[1]
-        wordlist_path = sys.argv[2]
+    parser = argparse.ArgumentParser(description="PDF brute force script")
+    parser.add_argument('pdf_path', nargs='?', help='Path to the PDF file')
+    parser.add_argument('wordlist_path', nargs='?', help='Path to the password wordlist')
+    
+    args = parser.parse_args()
+
+    if args.pdf_path and args.wordlist_path:
+        pdf_path = args.pdf_path
+        wordlist_path = args.wordlist_path
     else:
         pdf_path = input("Enter PDF file path: ")
         wordlist_path = input("Enter wordlist file path: ")
