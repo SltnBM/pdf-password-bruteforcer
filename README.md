@@ -41,7 +41,7 @@ python pdf_bruteforcer.py
 ```
 
 ## 💻 Usage
-*Option 1: With CLI arguments*
+**Option 1: With CLI arguments**
 ```bash
 python pdf_bruteforcer.py <path_to_pdf> <path_to_wordlist>
 ```
@@ -50,9 +50,9 @@ Example:
 python pdf_bruteforcer.py file_protected.pdf wordlist.txt
 ```
 
-*Option 2: Interactive mode*
+**Option 2: Interactive mode**
 
-If no arguments are provided, the script will ask for input:
+*If no arguments are provided, the script will ask for input:*
 ```bash
 python pdf_bruteforcer.py
 ```
